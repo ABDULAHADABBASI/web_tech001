@@ -1,93 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        /* h1{font-size: 25px;} */
-        /* h2{font-size:22px ;}
-        h3{font-size: 18;}
-        body{background-color: rgb(211, 181, 181);}
-        @media(max-width:600px){
-            body{font-size: ;}
-            h1{font-size:30px ;}
-            h2{font-size: 25px;}
-            h3{font-size: 20;}
-            body{background-color: rgb(161, 161, 189);} */
-        
-            /* *{padding: 0px;
-            margin: 0px;
-            font-size: 20px;}
-            .container{
-            display: flex;
-            gap: 5px;
-            }
-         } */
-          /* .container{
-            display: flex;
-            gap: 5px;
-            background-color: blue;
-          }
-          .item{
-            background-color: green;
-          } */
-                 .container{
-                    flex-wrap: wrap;
-                     justify-content:center;
-            /* display:inline-flex; */
-            display:flex;
-            gap: 10px;
-            border: 3px goldenrod solid;
-            
-            /* flex-direction: column;  
-             /* flex-direction: row-reverse;  */
-            
-           }
-           .item{flex-basis:40px;}
-           .red{order: 1;}
-           .yellow{order: 2;} 
-           .blue{order: 5;}
-
-    
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>lab5</title>
+  <link rel="stylesheet" href="lab5.css">
 </head>
 <body>
-
-    <!-- <h1>Comsats abbottabad</h1>
-    <h2>Department of CE</h2>
-    <h3>Web Technologies</h3> -->
-    <!-- <div class="container">
-    <div class="item"><h1>Green</h1></div>
-    <div class="item"><h2>Blue</h2></div>
-    <div class="item"><h3>Red</h3></div> -->
-    <!-- <div class="container">
-    <div class="item"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni quis ut provident perferendis ipsum sint in ad harum earum qui voluptatum, quod inventore molestias quisquam blanditiis pariatur consequatur sapiente veniam?</p></div>
-    <div class="item"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora optio assumenda beatae eligendi illum, dolore nostrum esse qui voluptas officiis magnam ex! Distinctio, quas vel. Voluptate a illo ut libero.</p></div>
-    <div class="item"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi, corrupti animi repellendus eos harum possimus fugiat ducimus sed perspiciatis reprehenderit molestias mollitia sunt nobis eaque a. Asperiores nisi illo pariatur.</p></div>
-    </div> 
-
-<!-- <div class="container">div is full width/block
-     <span class="item">span is inline block</span>
-     <p class="item">paragraph is also block</p>
-     <img class="item" alt="image is inline block">
-</div> -->
-<div class="container">
-    <p class="item red" style="background-color: red;">Red</p>
-     <p class="item orange" style="background-color: orange;">Orange</p>
-      <p class="item yellow" style="background-color: yellow;">Yellow</p>
-       <p class="item grenn" style="background-color: Green;">Green</p>
-        <p class="item blue" style="background-color: Blue;">Blue</p>
-         <p class="item indigo" style="background-color: indigo;">Indigo</p>
- <p class="item red" style="background-color: red;">Red</p>
-     <p class="item orange" style="background-color: orange;">Orange</p>
-      <p class="item yellow" style="background-color: yellow;">Yellow</p>
-       <p class="item grenn" style="background-color: Green;">Green</p>
-        <p class="item blue" style="background-color: Blue;">Blue</p>
-         <p class="item indigo" style="background-color: indigo;">Indigo</p>
-
-        </div>
-
-    
+  <h1 id="Main title">Experiment:5(css selectors)</h1>
+  <p>Different type of css selectors</p>
+  <h2>selectors</h2>
+  <p class="highlight">highlight class selector</p>
+<h2>child selector:</h2>
+<p>this paragraph is inside dv and style by using descendant selector</p>
+<div>
+    <ul>
+    <li>iteam 1</li>
+    <li>iteam 2</li>
+    <li>
+      nested list:
+      <ul>
+        <li>nested iteam</li>
+      </ul>
+    </li>
+  </ul>
+</div>
+<h2>data</h2>
+<ul>
+  <li>frist iteam</li>
+  <li>secound iteam</li>
+  <li>third iteam</li>
+</ul>
 </body>
 </html>
